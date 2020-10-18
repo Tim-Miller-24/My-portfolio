@@ -52,8 +52,14 @@
         text-align: center;
     }
 
-    .slider__description {
+    .slider__description , .slider__title , .slider__link {
         text-align: center;
+    }
+
+    .slider__menu {
+        text-align: center;
+        list-style: none;
+        padding: 0;
     }
 
     .tabs__description , .tabs__title{
@@ -62,5 +68,9 @@
 
     .tabs__info {
         align-items: center !important;
+    }
+
+    .accordion__descriprion {
+        text-align: center;
     }
 }
